@@ -1,0 +1,228 @@
+body{
+    margin: auto;
+    height: 18vh;
+}
+header{
+    background-color: rgba(40, 167, 185, 0.9);
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.center_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.content, .user_acount{
+    margin-left: 10%;
+}
+.content form{
+    position: relative;
+    margin-left: 40%;
+    align-items: center;
+    display: flex;
+}
+.content ul{
+    list-style-type: none;
+    white-space: nowrap;
+    margin-left: 10%;
+    font-weight: 700;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.5rem;    
+}
+.content input[type="text"]{
+    border-radius: 5px;
+    width: 18em;
+}
+.content button{ 
+    background-color: unset;
+    border: unset;
+    color: #464141;
+    position: absolute;
+    font-size: 2.5rem;
+    right: 0%;
+}
+
+.content input[placeholder="Search"]{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    border: unset;
+    padding: 2%;
+}
+.content input::placeholder{
+    color: #000000;
+}
+.user_acount{
+    margin-right: 10%;
+}
+.user_acount ul{
+    list-style: none;
+    margin-left: -15%;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.menu{
+    width: 100%;
+}
+.menu ul{ 
+    list-style: none;
+    background-color: #000000;
+    justify-content: space-around;   
+    padding:0%;
+    margin:unset; 
+    align-items: center;
+    display: flex;  
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-size:30px;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.fa-cart-shopping{
+    background-color: white;
+    font-size: 3em;
+}
+.fa-user-plus{
+    font-size: 3em;
+}
+section{
+    width: 35%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+.sec2{
+    width: 35%;
+    font-weight: 700;
+    font-size: 25px;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.sec2 h2{
+    text-align: center;
+}
+.group img{
+    margin-top: 10%;
+}
+.green{
+    background-color: green;
+    border-radius: 50%;
+    width:220px;
+    text-align: center;
+}
+.pink{
+    background-color: rgb(255, 54, 87);
+    width: 220px ;
+    text-align: center;
+    border-radius: 50%;
+}
+.sky_blue{
+    background-color:rgba(40, 167, 185, 0.9);
+    width: 220px;
+    text-align: center;
+    border-radius: 50%;
+}
+.dark_bule{
+    background-color: blue;
+    width: 220px;
+    text-align: center;
+    border-radius: 50%;
+}
+.all{
+    display: flex;
+    font-weight: 700;
+    font-size: 35px;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+}
+.af1 li{
+    list-style: none;
+    display: inline;
+    font-size: 50px;
+}
+
+.af1 p{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.af2 p{
+    font-size: 25px;
+    font-weight: 700;
+}
+.af02 li{
+    list-style: none;
+    font-size: 50px;
+    display: inline;
+    gap: 0px;
+}
+footer{
+    background-color:rgba(40, 167, 185, 0.9);
+}
+.all_footer{
+    
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.fa-tiktok{
+    color: white;
+    background-color: #000000;
+    border-radius: 10%;
+    width:50px ;
+    font-size: 45px;
+}
+.fa-square-twitter{
+    color: white;
+    background-color:rgba(40, 167, 185, 0.9);
+    border-radius: 10%;
+    width:50px ;
+}
+.fa-square-facebook{
+    color: rgb(8, 111, 196);
+    background-color: white;
+    border-radius: 10%;
+    width:50px ;
+}
+.fa-square-instagram{
+    color: white;
+    background-color: palevioletred ;
+    border-radius: 10%;
+    width:50px 
+}
+.af3 li{
+    list-style: none;
+}
+.af3{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    color: #000000;
+    background-color: #000000;
+    height: 10px;
+    border-style: none;
+}
